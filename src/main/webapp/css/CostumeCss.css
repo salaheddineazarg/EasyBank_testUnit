@@ -1,0 +1,96 @@
+.w-full{
+    width: 100%;
+}
+.h-auto{
+    height: auto;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-blue{
+    background-color: blue;
+}
+.color-black{
+    color: black;
+}
+.color-white{
+    color: white;
+}
+.d-flex{
+    display: flex;
+
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: end;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-center{
+    justify-content: center;
+}
+.padding-10{
+    padding: 10px;
+}
+.padding-20{
+    padding: 20px;
+}
+.padding-top-10{
+    padding-top: 10px;
+}
+.padding-left-10{
+    padding-left: 10px;
+}
+.padding-right-10{
+    padding-right: 10px;
+}
+padding-bottom-10{
+    padding-bottom: 10px;
+}
+.padding-top-20{
+    padding-top: 20px;
+}
+.padding-left-20{
+    padding-left: 20px;
+}
+.padding-right-20{
+    padding-right: 20px;
+}
+.padding-bottom-20{
+    padding-bottom: 20px;
+}
+.margin-y-5{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.margin-y-10{
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.margin-x-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-pricipal{
+    background-color:#F5FAFF;;
+}
+.position-absolute{
+    position: absolute;
+}

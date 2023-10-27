@@ -1,0 +1,354 @@
+*{
+   margin: 0px;
+    padding: 0px;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+.setting-icon{
+    position: fixed;
+    top: 88%;
+    left: 95%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* Body */
+body{
+   overflow-x: hidden;
+    font-family: 'Marcellus SC', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.navBar{
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-top: 10px;
+    padding-right: 30px;
+    align-items: center;
+    border-bottom: 1px solid #d1d1d1;
+
+}
+.logo{
+    margin-left: 10px;
+}
+.btn_list{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.ulNavbar{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-right: 10px;
+
+}
+
+.list{
+
+    list-style: none;
+}
+.Btns{
+    gap: 24px;
+}
+.BtnOpenAcc{
+    height: 29px;
+    padding: 12px;
+    width: 103px;
+    text-align: center;
+    background-color: blue;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: white;
+    border-radius: 50px;
+
+}
+.BtnGetTouch{
+    height: 52px;
+    width: 148px;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
+.alink{
+    text-decoration: none;
+    color: #464646;
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+.header{
+    width: 100%;
+    height: 113vh;
+
+    position: relative;
+    top: 0px;
+    margin-bottom: 95px;
+}
+.imageText{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.titleContainer{
+
+    padding-left: 57px;
+    padding-top: 91px;
+    gap: 66px;
+}
+.headerImage{
+    width: 560px;
+    height: 508px;
+
+}
+.sub-title{
+    font-family: 'Poppins', sans-serif;
+    font-size:40px;
+    color: #055C2D;
+    margin-bottom: 11px;
+}
+.preParagraph{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: black;
+    width: 73%;
+
+}
+.title{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    text-transform: initial;}
+
+/*  END HEADER */
+
+.partners{
+    width: 90%;
+    background-color: #ffffff;
+    height: 200px;
+    border-radius: 0 20px 20px 0;
+    position: absolute;
+    top: 111%;
+    box-shadow: 11px 0 31px -16px black;
+    padding-left: 10px;
+}
+.textPartner{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: initial;
+    font-size: 32px;
+    line-height: 41.6px;
+
+
+}
+/*   images partners */
+.partnerImgS:hover,.partnerImgA:hover,.partnerImgP:hover,.partnerImgV:hover,.partnerImgM:hover {
+    filter: grayscale(0%);
+    transition: ease 0.3s;
+}
+.partnerImgS{
+    height: 60px ;
+    width: 105px;
+    filter: grayscale(100%);
+}.partnerImgM{
+     height: 52px;
+     width: 84px;
+     filter: grayscale(100%);
+}.partnerImgP{
+    height: 43px ;
+    width: 159px;
+      filter: grayscale(100%);
+}.partnerImgV{
+    height: 42px ;
+    width: 130px;
+       filter: grayscale(100%);
+}.partnerImgA{
+    height: 75px ;
+    width: 91px;
+        filter: grayscale(100%);
+}
+
+
+
+/* ABOUT */
+.aboutus{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+    gap: 30px;
+}
+.img-area{
+    height: 540px;
+    width: 546px;
+
+}
+
+.about-img{
+    height: 540px;
+    width: 540px;
+}
+
+.notify{
+    height: 22px;
+    width: 22px;
+    padding: 19px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.but-title{
+    font-weight: 600;
+    font-size: 18px;
+    gap: 21px;
+    margin-bottom: 10px;
+
+}
+/* Client Page */
+.container{
+    width: 100%;
+    max-width: 437px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-client{
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+}
+.para-client{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    width: 390px;
+}
+.inputs{
+    height: 45px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 2%;
+    margin-bottom: 2.5%;
+    width: 248px;
+}
+.label-input{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+/* Dashboard */
+
+.table-area{
+    padding-top: 50px;
+
+}
+.container-table{
+    gap: 28px;
+    height: auto;
+    overflow-y: scroll;
+    padding: 28px;
+    overflow-x: clip;
+    width: 800px;
+}
+.container-table::-webkit-scrollbar{
+    width: 3px;
+    height: 30px;
+    background-color: #2c2cff;
+    border-radius: 50px;
+}
+
+.table-rowP{
+    width: 100%;
+    background-color: #e8e8e8;
+    color: white;
+    display: flex;
+    gap: 56px;
+    padding: 10px;
+    box-shadow: 0px 5px 15px -13px black;
+
+}
+.table-row{
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    gap: 35px;
+    padding: 10px;
+    box-shadow: 0px 5px 15px -13px black;
+}
+.column-info{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    width: 95px;
+    font-size: 14px;
+    color: #4e4e4e;
+    display: block;
+}
+.column-info::first-line{
+
+}
+.form-area{
+    display: none;
+    position: fixed;
+    z-index: 3;
+    top:0;
+    height: 100%;
+    background: rgba(42,42,42,71%);
+}
+.close-right{
+    background-color: black;
+    width: 24px;
+    height: 2px;
+    border-radius: 16px;
+    transform: rotate(129deg);
+}
+.close-left{
+    background-color: black;
+    width: 24px;
+    height: 2px;
+    border-radius: 16px;
+    transform: rotate(55deg);
+}
+.form-add{
+    width: 600px;
+    margin-top: 7%;
+    height: 378px;
+    border-radius: 20px;
+}
+.Title-form{
+    text-align: center;
+    border-bottom: 1px solid #696969;
+}
+.btn-dash{
+    width: 38%;
+    border-radius: 9px;
+}
+.iconD{
+  color: red;
+}
+.iconE{
+    color: #055C2D;
+}
